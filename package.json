@@ -1,0 +1,28 @@
+{
+  "name": "sourcecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.0.0",
+    "@contentful/rich-text-types": "^15.0.0",
+    "contentful": "^8.4.2",
+    "date-fns": "^2.23.0",
+    "emailjs-com": "^3.2.0",
+    "sweetalert2": "^11.0.20"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
