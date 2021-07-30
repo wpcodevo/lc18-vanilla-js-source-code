@@ -60,7 +60,7 @@ li {
   align-items: center;
 }
 
-.overlay {
+.preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -72,12 +72,12 @@ li {
   display: none;
 }
 
-.overlay img {
+.preloader img {
   width: 20rem;
   height: 20rem;
 }
 
-.overlay.active {
+.preloader.active {
   display: flex;
 }
 
